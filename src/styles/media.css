@@ -1,0 +1,81 @@
+@media (max-width: 1350px) {
+  .movies__link {
+    height: 27rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+  .movies__link {
+    height: 29.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .movies {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .movies-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 27%;
+            flex: 0 0 27%;
+  }
+  .movies__link {
+    height: 42.4rem;
+    margin-bottom: 3rem;
+  }
+  .genres-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+  }
+  .genres-item:nth-child(4), .genres-item:nth-child(5) {
+    -ms-flex-preferred-size: 47.5%;
+        flex-basis: 47.5%;
+  }
+  .actors-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+  }
+  .actors-item:nth-child(-n+3) {
+    margin-bottom: 3rem;
+  }
+  .offer {
+    padding: 7.2rem 5.7rem;
+  }
+}
+
+@media (max-width: 980px) {
+  body {
+    font-size: 22px;
+  }
+  .nav {
+    padding-left: 5rem;
+  }
+  .control-item {
+    margin-left: 5.5rem;
+  }
+  .control-btn_search {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .control-btn_notice {
+    width: 2.72rem;
+    height: 3rem;
+  }
+  .control-btn_account {
+    width: 2.3rem;
+    height: 2.42rem;
+  }
+  .footer-item:first-child {
+    display: none;
+  }
+  .footer-list__link {
+    font-size: 2.4rem;
+  }
+}
+/*# sourceMappingURL=media.css.map */

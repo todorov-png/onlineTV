@@ -1,0 +1,78 @@
+@media (max-width: 1350px) {
+  .movies__link {
+    height: 27rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+  .movies__link {
+    height: 29.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .movies {
+    flex-wrap: wrap;
+    &-item {
+      flex: 0 0 27%;
+    }
+    &__link {
+      height: 42.4rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .genres-item {
+    flex: 0 0 30%;
+    &:nth-child(4), &:nth-child(5) {
+      flex-basis: 47.5%;
+    }
+  }
+  .actors-item {
+    flex: 0 0 30%;
+    &:nth-child(-n+3){
+      margin-bottom: 3rem;
+    }
+  }
+  .offer {
+    padding: 7.2rem 5.7rem;
+  }
+}
+
+@media (max-width: 980px) {
+  body {
+    font-size: 22px;
+  }
+  .nav {
+    padding-left: 5rem;
+  }
+  .control {
+    &-item {
+      margin-left: 5.5rem;
+    }
+    &-btn {
+      &_search {
+        width: 2.3rem;
+        height: 2.3rem;
+      }
+      &_notice {
+        width: 2.72rem;
+        height: 3rem;
+      }
+      &_account {
+        width: 2.3rem;
+        height: 2.42rem;
+      }
+    }
+  } 
+  .footer {
+    &-item:first-child {
+      display: none;
+    }
+    &-list__link {
+      font-size: 2.4rem;
+    }
+  }
+}
